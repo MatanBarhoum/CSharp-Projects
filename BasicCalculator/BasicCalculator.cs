@@ -11,9 +11,9 @@ namespace Program
         static void Main(string[] args)
         {
             Console.Write("Enter a number: ");
-            int num = Convert.ToInt32(Console.ReadLine());
+            Double num = Convert.ToDouble(Console.ReadLine());
             Console.Write("Enter a number: ");
-            int num1 = Convert.ToInt32(Console.ReadLine());
+            Double num1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Summary: " + (num + num1));
             Console.ReadLine();
         }
