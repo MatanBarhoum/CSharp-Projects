@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\DemoProject\DemoProject\bin\Debug\DemoProject.exe.config
+C:\Users\Admin\source\repos\DemoProject\DemoProject\bin\Debug\DemoProject.exe
+C:\Users\Admin\source\repos\DemoProject\DemoProject\bin\Debug\DemoProject.pdb
+C:\Users\Admin\source\repos\DemoProject\DemoProject\obj\Debug\DemoProject.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\DemoProject\DemoProject\obj\Debug\DemoProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\source\repos\DemoProject\DemoProject\obj\Debug\DemoProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DemoProject\DemoProject\obj\Debug\DemoProject.exe
+C:\Users\Admin\source\repos\DemoProject\DemoProject\obj\Debug\DemoProject.pdb
