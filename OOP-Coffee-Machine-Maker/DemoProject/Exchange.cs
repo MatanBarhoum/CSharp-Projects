@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +22,7 @@ namespace DemoProject
                     Console.Write("Enter money: $");
                     Program.usermoney += Convert.ToDouble(Console.ReadLine());
 
-                    if (Program.usermoney > (latte - Program.usermoney))
+                    if (Program.usermoney >= latte)
                     {
                         Console.WriteLine("Exchange is: " + (Program.usermoney - latte));
                         Bank.hasmoney += 1;
@@ -39,7 +39,7 @@ namespace DemoProject
                     Console.Write("Enter money: $");
                     Program.usermoney += Convert.ToDouble(Console.ReadLine());
 
-                    if (Program.usermoney > (cappucino - Program.usermoney))
+                    if (Program.usermoney >= cappucino)
                     {
                         Console.WriteLine("Exchange is: " + (Program.usermoney - cappucino));
                         Bank.hasmoney += 2;
@@ -57,7 +57,7 @@ namespace DemoProject
                     Console.Write("Enter money: $");
                     Program.usermoney += Convert.ToDouble(Console.ReadLine());
 
-                    if (Program.usermoney > (americano - Program.usermoney))
+                    if (Program.usermoney >= americano)
                     {
                         Console.WriteLine("Exchange is: " + (Program.usermoney - americano));
                         Bank.hasmoney += 2.5;
@@ -69,8 +69,8 @@ namespace DemoProject
         public static void ExchangedMoney(double moneyrecived, int coffee)
         {
             
-            if (moneyrecived >= 1 && coffee == 1) {  Console.WriteLine("Your exchange is " + "$" + (moneyrecived - latte)); Bank.hasmoney += 1;   }
-            else if (moneyrecived >= 2 && coffee == 2) {  Console.WriteLine("Your exchange is " + "$" + (moneyrecived - cappucino)); Bank.hasmoney += 2;  }
+            if (moneyrecived >= 1 && coffee == 1) {  Console.WriteLine("Your exchange is " + "$" + (moneyrecived - latte)); Bank.hasmoney += 1;  }
+            else if (moneyrecived >= 2 && coffee == 2) {  Console.WriteLine("Your exchange is " + "$" + (moneyrecived - cappucino)); Bank.hasmoney += 2; }
             else if (moneyrecived >= 2.5 && coffee == 3) {  Console.WriteLine("Your exchange is " + "$" + (moneyrecived - americano));  Bank.hasmoney += 2.5; }
             else { MissingMoney(); }
         }
