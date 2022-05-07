@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\StopWatch New\StopWatch New\bin\Debug\StopWatch New.exe
+C:\Users\Admin\source\repos\StopWatch New\StopWatch New\bin\Debug\StopWatch New.pdb
+C:\Users\Admin\source\repos\StopWatch New\StopWatch New\obj\Debug\StopWatch New.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\StopWatch New\StopWatch New\obj\Debug\StopWatch_New.Form1.resources
+C:\Users\Admin\source\repos\StopWatch New\StopWatch New\obj\Debug\StopWatch_New.Properties.Resources.resources
+C:\Users\Admin\source\repos\StopWatch New\StopWatch New\obj\Debug\StopWatch New.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\StopWatch New\StopWatch New\obj\Debug\StopWatch New.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\StopWatch New\StopWatch New\obj\Debug\StopWatch New.exe
+C:\Users\Admin\source\repos\StopWatch New\StopWatch New\obj\Debug\StopWatch New.pdb
