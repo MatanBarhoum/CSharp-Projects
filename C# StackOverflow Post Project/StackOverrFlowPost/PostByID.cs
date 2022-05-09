@@ -24,7 +24,7 @@ namespace StackOverrFlowPost
             if (ID == 0) { Console.WriteLine("Error, there's no posts."); }
             else
             {
-                public string date = DateTime.Now.ToString();
+                string date = DateTime.Now.ToString();
                 Console.WriteLine("\nPost ID: {0}", PostID[ID - 1]);
                 Console.WriteLine("Title: {0}", PostTitle[ID - 1]);
                 Console.WriteLine("Message: {0}", PostBody[ID - 1]);
