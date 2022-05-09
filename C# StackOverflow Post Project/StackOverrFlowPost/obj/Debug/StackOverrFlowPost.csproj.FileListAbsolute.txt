@@ -1,0 +1,6 @@
+C:\Users\OSUser\source\repos\StackOverrFlowPost\StackOverrFlowPost\bin\Debug\StackOverrFlowPost.exe
+C:\Users\OSUser\source\repos\StackOverrFlowPost\StackOverrFlowPost\bin\Debug\StackOverrFlowPost.pdb
+C:\Users\OSUser\source\repos\StackOverrFlowPost\StackOverrFlowPost\obj\Debug\StackOverrFlowPost.csproj.AssemblyReference.cache
+C:\Users\OSUser\source\repos\StackOverrFlowPost\StackOverrFlowPost\obj\Debug\StackOverrFlowPost.csproj.CoreCompileInputs.cache
+C:\Users\OSUser\source\repos\StackOverrFlowPost\StackOverrFlowPost\obj\Debug\StackOverrFlowPost.exe
+C:\Users\OSUser\source\repos\StackOverrFlowPost\StackOverrFlowPost\obj\Debug\StackOverrFlowPost.pdb
