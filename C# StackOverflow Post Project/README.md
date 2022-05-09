@@ -1,6 +1,6 @@
 # C# StackOverflow Post-like Console Project
 
-<img src="example.gif">
+<img src="Example.gif">
 <br>
 Exercise 2: Design a StackOverflow Post
 Design a class called Post. This class models a StackOverflow post. It should have properties
