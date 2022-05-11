@@ -1,6 +1,6 @@
 # C# Multi Task Bar Expand / Minimaze Program
 
-<img src="Example.jpeg">
+<img src="Example.jpg">
 
 The expand button will launch an registry to expand the task bar, meaning multi task from the same applications will be spread across the task bar.
 The minimize button will do the oppsite.
