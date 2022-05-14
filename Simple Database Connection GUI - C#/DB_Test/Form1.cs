@@ -16,7 +16,7 @@ namespace DB_Test
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-K2GN5U0;Initial Catalog=TutorialDB;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=YOUR_DB;Initial Catalog=TutorialDB;Integrated Security=True");
         private void InsertButton_Click(object sender, EventArgs e)
         {
             
