@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\DB_Test\DB_Test\bin\Debug\DB_Test.exe
+C:\Users\Admin\source\repos\DB_Test\DB_Test\bin\Debug\DB_Test.pdb
+C:\Users\Admin\source\repos\DB_Test\DB_Test\obj\Debug\DB_Test.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\DB_Test\DB_Test\obj\Debug\DB_Test.Form1.resources
+C:\Users\Admin\source\repos\DB_Test\DB_Test\obj\Debug\DB_Test.Properties.Resources.resources
+C:\Users\Admin\source\repos\DB_Test\DB_Test\obj\Debug\DB_Test.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\DB_Test\DB_Test\obj\Debug\DB_Test.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DB_Test\DB_Test\obj\Debug\DB_Test.exe
+C:\Users\Admin\source\repos\DB_Test\DB_Test\obj\Debug\DB_Test.pdb
