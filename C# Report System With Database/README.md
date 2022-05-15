@@ -14,5 +14,7 @@ For example - to delete a varchar (string) from SQL we need to use 'string' and 
 <br>
 This project can be translated into full working projects for a lot of projects, small companies and even bigger ones.
 <br>
-# Changes 
+
+<b> Changes: </b>
+<br>
 1. After the user press the "Delete" button, the Text boxes are cleared and return to be blank for another use and fill. this can be also be done with the "New" button.
