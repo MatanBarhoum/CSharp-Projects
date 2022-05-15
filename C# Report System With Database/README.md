@@ -13,3 +13,6 @@ This project helped me to learn alot about the SQL Commands and how to execute, 
 For example - to delete a varchar (string) from SQL we need to use 'string' and not string. Using \' + string + '\ I overcome the problem that the string was without quotation marks.
 <br>
 This project can be translated into full working projects for a lot of projects, small companies and even bigger ones.
+<br>
+# Changes 
+1. After the user press the "Delete" button, the Text boxes are cleared and return to be blank for another use and fill. this can be also be done with the "New" button.
