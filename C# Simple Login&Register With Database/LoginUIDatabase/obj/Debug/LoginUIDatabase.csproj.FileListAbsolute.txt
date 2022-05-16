@@ -1,0 +1,10 @@
+C:\Users\OSUser\source\repos\LoginUIDatabase\LoginUIDatabase\obj\Debug\LoginUIDatabase.csproj.AssemblyReference.cache
+C:\Users\OSUser\source\repos\LoginUIDatabase\LoginUIDatabase\obj\Debug\LoginUIDatabase.Form1.resources
+C:\Users\OSUser\source\repos\LoginUIDatabase\LoginUIDatabase\obj\Debug\LoginUIDatabase.Properties.Resources.resources
+C:\Users\OSUser\source\repos\LoginUIDatabase\LoginUIDatabase\obj\Debug\LoginUIDatabase.csproj.GenerateResource.cache
+C:\Users\OSUser\source\repos\LoginUIDatabase\LoginUIDatabase\obj\Debug\LoginUIDatabase.csproj.CoreCompileInputs.cache
+C:\Users\OSUser\source\repos\LoginUIDatabase\LoginUIDatabase\bin\Debug\LoginUIDatabase.exe
+C:\Users\OSUser\source\repos\LoginUIDatabase\LoginUIDatabase\bin\Debug\LoginUIDatabase.pdb
+C:\Users\OSUser\source\repos\LoginUIDatabase\LoginUIDatabase\obj\Debug\LoginUIDatabase.exe
+C:\Users\OSUser\source\repos\LoginUIDatabase\LoginUIDatabase\obj\Debug\LoginUIDatabase.pdb
+C:\Users\OSUser\source\repos\LoginUIDatabase\LoginUIDatabase\obj\Debug\LoginUIDatabase.Register.resources
