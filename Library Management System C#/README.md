@@ -5,7 +5,6 @@ A Project i've been working on since yesterday. This system can help library wor
 This is an incomplete project.
 <br>
 <b> To do: </b>
-<br>
 1. Complete Books by category (Select * from (Table) Where category = @category) for each category.
 <br>
 2.Some Category needs to be reshaped to hide columns the worker do not need to see but exist to filter the results. Using SqlDataAdapter and DataSet, we declare a 
