@@ -17,7 +17,12 @@ variable for table, and SqlDataAdapter.Fill(Table). Then, we call the talbe vari
 <br>
 
 <h1> Examples </h1>
+Gifs to show the work.
 <br>
 <br>
 <h1> Register </h1>
 <img src="Register.gif">
+
+<h1> Login </h1>
+The Login system. Using ExecuteReader I check for the username and password to Authenticate with SQL.
+<img src="Login.gif">
