@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1DB30487-ECEA-4145-B3B0-F7744C23D447}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LibraryManagementSystem</RootNamespace>
+    <AssemblyName>LibraryManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AvailableBooksUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvailableBooksUI.Designer.cs">
+      <DependentUpon>AvailableBooksUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ByCategory\Biographies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ByCategory\Biographies.Designer.cs">
+      <DependentUpon>Biographies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ByCategory\Comics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ByCategory\Comics.Designer.cs">
+      <DependentUpon>Comics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomersUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomersUI.Designer.cs">
+      <DependentUpon>CustomersUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibrarySystemDataSet.cs">
+      <DependentUpon>LibrarySystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LibrarySystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LibrarySystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\NewBookRentUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage\NewBookRentUI.Designer.cs">
+      <DependentUpon>NewBookRentUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\NewBookUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage\NewBookUI.Designer.cs">
+      <DependentUpon>NewBookUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\RemoveBookRentUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage\RemoveBookRentUI.Designer.cs">
+      <DependentUpon>RemoveBookRentUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\RemoveBookUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage\RemoveBookUI.Designer.cs">
+      <DependentUpon>RemoveBookUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RentedBooksUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentedBooksUI.Designer.cs">
+      <DependentUpon>RentedBooksUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search\SearchRenterUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search\SearchRenterUI.Designer.cs">
+      <DependentUpon>SearchRenterUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search\SearchUserUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search\SearchUserUI.Designer.cs">
+      <DependentUpon>SearchUserUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkerDashboard.Designer.cs">
+      <DependentUpon>WorkerDashboard.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AvailableBooksUI.resx">
+      <DependentUpon>AvailableBooksUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ByCategory\Biographies.resx">
+      <DependentUpon>Biographies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ByCategory\Comics.resx">
+      <DependentUpon>Comics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomersUI.resx">
+      <DependentUpon>CustomersUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage\NewBookRentUI.resx">
+      <DependentUpon>NewBookRentUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage\NewBookUI.resx">
+      <DependentUpon>NewBookUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage\RemoveBookRentUI.resx">
+      <DependentUpon>RemoveBookRentUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage\RemoveBookUI.resx">
+      <DependentUpon>RemoveBookUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RentedBooksUI.resx">
+      <DependentUpon>RentedBooksUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search\SearchRenterUI.resx">
+      <DependentUpon>SearchRenterUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search\SearchUserUI.resx">
+      <DependentUpon>SearchUserUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkerDashboard.resx">
+      <DependentUpon>WorkerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="LibrarySystemDataSet.xsc">
+      <DependentUpon>LibrarySystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LibrarySystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LibrarySystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LibrarySystemDataSet.xss">
+      <DependentUpon>LibrarySystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
