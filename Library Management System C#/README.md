@@ -44,3 +44,11 @@ Reader to check for duplicate Book Name or Book ID!!
 A search engine to search for users to get data like ID, Full name, email to help fill the form.
 Reader to check if Book is exist in order to not register a book that don't exist.
 <img src="New_Renter.gif">
+
+<h1> View Rented Books </h1>
+Library workers can see the rented books.
+<img src="View_Section.gif">
+
+<h1> View Customers </h1>
+Library workers can see the Customers with filter (Without Password, username, id..), Table.Columns.Remove was used to filter the DataGridView.
+<img src="View_Customer.gif">
