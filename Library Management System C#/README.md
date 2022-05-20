@@ -2,6 +2,11 @@
 
 A Project i've been working on since yesterday. This system can help library workers to manage their books, see which books available (By category, name).
 <br>
+This project helped me understand greatly how to implement DB system into a C#. Update, Insert, Delete, Select and SQL Datatypes. SqlAdapter, ExecutreReader to authenticate values infornt the DB. 
+In this project I understood greatly the diffrences between Show and ShowDialog. With Show() method I can navigat other forms windows and use them only to read data.
+<br>
+A Search engine with DB - This was fun! using the DB Select command, I can search using the Select Command with "like" and "% %" in condition. 
+<br>
 This is an incomplete project.
 <br>
 <b> To do: </b>
@@ -29,3 +34,11 @@ The Login system. Using ExecuteReader I check for the username and password to A
 <h1> Main Dashboard </h1>
 Main Dashboard. Using getdate.now for time, search option to look over DB and print results in the datagridview.
 <img src="Main_Dashboard.gif">
+
+<h1> New Book </h1>
+a UI to add a book. using if statements checking for string.isnullorempty to check if nothing provided. if so, a messagebox appear and warn. 
+<img src="New_Book.gif">
+
+<h1> New Renter </h1>
+A search engine to search for users to get data like ID, Full name, email to help fill the form.
+<img src="New_Renter.gif">
