@@ -37,6 +37,7 @@ Main Dashboard. Using getdate.now for time, search option to look over DB and pr
 
 <h1> New Book </h1>
 a UI to add a book. using if statements checking for string.isnullorempty to check if nothing provided. if so, a messagebox appear and warn. 
+Reader to check for duplicate Book Name or Book ID!!
 <img src="New_Book.gif">
 
 <h1> New Renter </h1>
