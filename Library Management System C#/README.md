@@ -59,8 +59,12 @@ Library workers can see the Customers with filter (Without Password, username, i
 <img src="View_Customer.gif">
 
 <h1> Remove Books </h1>
+Reader check for Book Name and Book ID, you can't remove a book that don't exist.
 <img src="Remove_Book.gif">
 
-<h1> View Customers </h1>
+<h1> Remove Rented Books </h1>
 Search engine will call the rented and will show the accounts that is rent a book, and which book (name and id).
+Reader check for Book Name, Account and Book ID to make sure to delete and increase the quantity. the opposite operation of rent a book.
+When you rent, you give a book, so the quantity is less 1. 
+When they return the book, the quantity increase.
 <img src="Remove_Renter.gif">
