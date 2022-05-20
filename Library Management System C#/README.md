@@ -42,4 +42,5 @@ Reader to check for duplicate Book Name or Book ID!!
 
 <h1> New Renter </h1>
 A search engine to search for users to get data like ID, Full name, email to help fill the form.
+Reader to check if Book is exist in order to not register a book that don't exist.
 <img src="New_Renter.gif">
