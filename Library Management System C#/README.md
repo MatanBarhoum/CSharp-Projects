@@ -26,3 +26,7 @@ Gifs to show the work.
 <h1> Login </h1>
 The Login system. Using ExecuteReader I check for the username and password to Authenticate with SQL.
 <img src="Login.gif">
+
+<h1> Main Dashboard </h1>
+Main Dashboard. Using getdate.now for time, search option to look over DB and print results in the datagridview.
+<img src="Main_Dashboard.gif">
