@@ -43,6 +43,7 @@ Reader to check for duplicate Book Name or Book ID!!
 <h1> New Renter </h1>
 A search engine to search for users to get data like ID, Full name, email to help fill the form.
 Reader to check if Book is exist in order to not register a book that don't exist.
+This opertions also decrease the quantity by 1 using UPDATE Books SET quantity = quantity - 1 WHERE \"Book Name\" = @BookName
 <img src="New_Renter.gif">
 
 <h1> View Rented Books </h1>
@@ -52,3 +53,14 @@ Library workers can see the rented books.
 <h1> View Customers </h1>
 Library workers can see the Customers with filter (Without Password, username, id..), Table.Columns.Remove was used to filter the DataGridView.
 <img src="View_Customer.gif">
+
+<h1> View Customers </h1>
+Library workers can see the Customers with filter (Without Password, username, id..), Table.Columns.Remove was used to filter the DataGridView.
+<img src="View_Customer.gif">
+
+<h1> Remove Books </h1>
+<img src="Remove_Book.gif">
+
+<h1> View Customers </h1>
+Search engine will call the rented and will show the accounts that is rent a book, and which book (name and id).
+<img src="Remove_Renter.gif">
