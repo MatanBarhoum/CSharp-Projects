@@ -1,3 +1,3 @@
 # C# Guessing Game (Console App)
 
-<img src="Exmaple.gif">
+<img src="Example.gif">
