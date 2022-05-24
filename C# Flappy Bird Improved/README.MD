@@ -1,5 +1,5 @@
 # C# Flappy Bird Game - Improved 
-<img src="Example.gif">
+<img src="Exmaple.gif">
 <br>
 What changed from my previous Flappy Bird C# game :
 <br>
