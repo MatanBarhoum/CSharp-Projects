@@ -8,3 +8,12 @@ Use it as you like, Code as code, App as App (exe in the debug/bin folder).
 <img src="Demo.gif">
 <h2>Register</h2>
 <img src="RegisterDemo.gif">
+
+<h1>To DO:</h1>
+<ol>
+  <li>Bind a static port \ Button to generate a random port</li>
+  <li>Colors for receiver \ sender</li>
+  <li>Profile photo + Profile Panel</li>
+  <li>Db Column for nickname</li>
+  <li>Emoji, Images, Files transfer !!!</li>  
+</ol>
