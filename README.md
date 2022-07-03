@@ -1,3 +1,3 @@
 # CSharp-Projects
 
-My C# Projects from Begginer till now
+My C# Projects from beginner till now
