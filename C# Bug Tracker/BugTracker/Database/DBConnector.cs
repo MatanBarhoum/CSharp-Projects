@@ -10,7 +10,7 @@ namespace BugTracker.Database
     {
         public static string Message { get; set; } // Property of message, get it from the reader when called and then set it and show in the form. static for calling all around the classes.
         public static string Answer { get; set; } // Propery of answer, get it from the reader when called and then set it and show in the form. static for calling all around the classes.
-        public string dbcon = "Data Source=MATAN-235;Initial Catalog=BugTracker;Integrated Security=True;MultipleActiveResultSets=True";
+        public string dbcon = "Data Source=****;Initial Catalog=BugTracker;Integrated Security=True;MultipleActiveResultSets=True";
 
         public void OpenDB(SqlConnection sql) // Opening the SQL connection using a composition call.
         {
