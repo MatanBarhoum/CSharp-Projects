@@ -1,0 +1,15 @@
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\bin\Debug\BugTracker.exe
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\bin\Debug\BugTracker.pdb
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.csproj.AssemblyReference.cache
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.Properties.Resources.resources
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.csproj.GenerateResource.cache
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.csproj.CoreCompileInputs.cache
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.exe
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.pdb
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.LoginForm.resources
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.AdminUI.resources
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\bin\Debug\BugTracker.exe.config
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.TicketDetailsUI.resources
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.TicketsQuery.resources
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.UserUI.resources
+C:\Users\OSUser\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.NewReport.resources
