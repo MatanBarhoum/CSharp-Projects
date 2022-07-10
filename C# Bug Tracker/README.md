@@ -13,9 +13,9 @@
 <img src="UserMainForm.gif">
 <h2>User New Report</h2>
 <img src="UserNewReport.gif">
-<h2>User See Answer From Admin</h2>
-<img src="UserSeeAnswer.gif">
 <h2>Admin Form</h2>
 <img src="AdminMainForm.gif">
+<h2>User See Answer From Admin</h2>
+<img src="UserSeeAnswer.gif">
 <h2>Admin Form Filter</h2>
 <img src="AdminFilterForm.gif">
