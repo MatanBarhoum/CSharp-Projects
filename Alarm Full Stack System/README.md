@@ -1,4 +1,4 @@
-# Alarm System Project 
+# Alarm System Project - QuAlarm
 
 Client-Side: Powershell GUI <br>
 Back-End: C# Net Core Web API <br>
