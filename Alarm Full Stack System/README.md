@@ -9,3 +9,5 @@ The Alarm.exe check for your quota, if it is less than 20GB - it's open a pop-up
 If you click contact, it's send your data With WEB API "Post" Method to the Back-End and the Back-End send it to the Database.
 <img src="Demo.gif"> <br> <br>
 
+<h2>Console App for managemnet and view</h2>
+<img src="DemoApp.gif">
